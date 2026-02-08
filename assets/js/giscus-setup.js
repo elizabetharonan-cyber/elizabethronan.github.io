@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "elizabetharonan-cyber/elizabethronan.github.io",
+    "data-repo": "elizabetharonan-cyber/elizabetharonan-cyber.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
