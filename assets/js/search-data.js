@@ -65,12 +65,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+        },{id: "nav-media-appearances",
+          title: "Media Appearances",
+          description: "Media coverage and interviews featuring Elizabeth A. Ronan.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/media/";
           },
         },{id: "nav-people",
           title: "people",
