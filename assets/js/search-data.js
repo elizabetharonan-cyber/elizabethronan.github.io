@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-about-me",
+    title: "About Me",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -16,12 +16,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-publications",
-          title: "Publications",
+        },{id: "nav-research-articles",
+          title: "Research Articles",
           description: "Publications by Elizabeth A. Ronan, sorted in reverse chronological order.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/_pages/publications/";
+          },
+        },{id: "nav-protocols",
+          title: "Protocols",
+          description: "Protocols by Elizabeth A. Ronan, sorted in reverse chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/protocols/";
           },
         },{id: "nav-projects",
           title: "projects",
