@@ -73,6 +73,16 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Reviews and commentaries -->
+    {% if page.reviews_and_commentaries %}
+      <h2>
+        <a href="{{ '/reviews/' | relative_url }}" style="color: inherit">Reviews and Commentaries</a>
+      </h2>
+      <div class="publications">
+        {% bibliography --file reviews --sort year --order descending %}
+      </div>
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
