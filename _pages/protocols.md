@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Protocols
+permalink: /protocols/
 description: Protocols by Elizabeth A. Ronan, sorted in reverse chronological order.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 {% include bib_search.liquid %}
 
