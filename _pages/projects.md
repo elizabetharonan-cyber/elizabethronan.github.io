@@ -9,6 +9,10 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
+<div style="margin-bottom: 2rem; width: 100%; max-width: 100%;">
+  <img src="/assets/img/poster.JPG" alt="Research Banner" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
+</div>
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
