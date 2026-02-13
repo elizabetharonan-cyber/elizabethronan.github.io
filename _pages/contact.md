@@ -4,7 +4,7 @@ permalink: /contact/
 title: Contact Me
 description: Get in touch with Elizabeth A. Ronan
 nav: true
-nav_order: 12
+nav_order: 11
 ---
 
 <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 2rem;">
