@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-publications",
-          title: "Publications",
+        },{id: "nav-research-articles",
+          title: "Research Articles",
           description: "Publications by Elizabeth A. Ronan, sorted in reverse chronological order.",
           section: "Navigation",
           handler: () => {
